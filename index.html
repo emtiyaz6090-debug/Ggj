@@ -221,5 +221,196 @@
         window.speechSynthesis.speak(msg);
     }
 </script>
+    <div id="tahi-ultimate-module" style="max-width: 600px; margin: 20px auto; font-family: 'Segoe UI', sans-serif; background: #000; padding: 10px; border-radius: 30px;">
+
+    <div class="card" style="background: #0a0000; padding: 20px; border-radius: 20px; border: 2px solid #8a2be2; margin-bottom: 20px; box-shadow: 0 0 15px rgba(138, 43, 226, 0.3);">
+        <h3 style="color: #8a2be2; text-align: center;">🍑 এনাল মাস্টারক্লাস ও কান্না ম্যানেজমেন্ট</h3>
+        <p style="color: #ccc; font-size: 14px; line-height: 1.7;">
+            <b style="color: #ff0000;">তহি কান্না করলে:</b> সাথে সাথে লিঙ্গ বের করে আনুন। ওকে শান্ত করতে কপালে চুমু দিন এবং পেটের নিচে হালকা মালিশ করুন। ও রিল্যাক্স না হলে জবরদস্তি করবেন না। <br><br>
+            <b style="color: #ffd700;">প্রবেশ পদ্ধতি:</b> এনাল এরিয়ায় প্রচুর লুব্রিকেন্ট দিন। ডিক ঢোকানোর সময় তহিকে বলুন "নিচে চাপ দিতে"। ও যখন চাপ দিবে, তখন ধীরে ধীরে পুশ করুন। ভেতরে যাওয়ার পর ২ মিনিট স্থির থাকুন।
+        </p>
+    </div>
+
+    <div class="card" style="background: #0a0000; padding: 20px; border-radius: 20px; border: 2px solid #ffd700; margin-bottom: 20px;">
+        <h3 style="color: #ffd700; text-align: center;">👄 ওরাল ও স্তন মৈথুন টিউটোরিয়াল</h3>
+        <p style="color: #ccc; font-size: 14px; line-height: 1.7;">
+            <b>ব্লু-জব:</b> জিহ্বা দিয়ে ডিকের মাথায় গোল করে চাটুন। ডিক মুখে নিয়ে গালের ভেতরে ভ্যাকিউম তৈরি করে চুষুন। মাল বের হওয়ার পর তা মুখে নিয়ে পার্টনারের চোখের দিকে তাকিয়ে এনজয় করুন।<br><br>
+            [attachment_0](attachment)
+            <b>স্তন মৈথুন (Tit-job):</b> দুই স্তনের মাঝে ডিক রেখে স্যান্ডউইচের মতো চিপে ধরুন। ঘষার সময় ডিকের মাথা মাঝে মাঝে মুখে নিয়ে চাটুন। মাল বের হলে স্তনের ওপর ছিটকে দিয়ে হাত দিয়ে সারা বুকে মাখিয়ে দিন।
+        </p>
+    </div>
+
+    <div class="card" style="background: linear-gradient(145deg, #000, #1a001a); padding: 25px; border-radius: 25px; border: 3px solid #ffd700; text-align: center; position: relative;">
+        <div style="position: absolute; top: -10px; right: -10px; background: #ffd700; color: #000; padding: 5px 15px; transform: rotate(15deg); font-weight: bold; font-size: 10px;">WORLD CLASS</div>
+        
+        <h2 style="color: #ffd700; text-transform: uppercase; font-size: 20px;">🌍 World Ranking System</h2>
+        
+        <div style="text-align: left; margin: 20px 0; color: #fff; font-size: 13px;">
+            <label>🍑 এনাল টাইটনেস:</label> 
+            <input type="range" id="wAnal" min="1" max="10" value="5" style="width:100%; accent-color: #8a2be2; margin-bottom: 10px;">
+            
+            <label>👄 ওরাল স্কিল (Deep Throat):</label> 
+            <input type="range" id="wOral" min="1" max="10" value="5" style="width:100%; accent-color: #00d4ff; margin-bottom: 10px;">
+            
+            <label>💦 স্কুইর্ট ও রস (Juicy Level):</label> 
+            <input type="range" id="wSquirt" min="1" max="10" value="5" style="width:100%; accent-color: #ff0000;">
+        </div>
+
+        <button onclick="checkWorldRank()" style="background: linear-gradient(45deg, #ffd700, #ffa500); color: #000; border: none; padding: 12px; border-radius: 50px; width: 100%; font-weight: bold; cursor: pointer; box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3);">র‍্যাঙ্কিং ও উইশ চেক করো 👑</button>
+
+        <div id="rankResult" style="display:none; margin-top: 20px; padding: 15px; border-radius: 15px; background: rgba(255, 255, 255, 0.05); border: 1px solid #ffd700;">
+            <h1 id="rankTitle" style="margin: 0; font-size: 22px;"></h1>
+            <p id="rankScore" style="color: #ffd700; font-size: 18px; font-weight: bold; margin: 10px 0;"></p>
+            <div id="wishMessage" style="color: #fff; font-style: italic; font-size: 13px;"></div>
+        </div>
+    </div>
+
+</div>
+
+<div id="fireworks" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; z-index: 9999; display: none; background: rgba(0,0,0,0.4);"></div>
+
+<script>
+    function checkWorldRank() {
+        const a = parseInt(document.getElementById('wAnal').value);
+        const o = parseInt(document.getElementById('wOral').value);
+        const s = parseInt(document.getElementById('wSquirt').value);
+        const score = (a + o + s) / 3;
+        
+        const result = document.getElementById('rankResult');
+        const title = document.getElementById('rankTitle');
+        const scoreTxt = document.getElementById('rankScore');
+        const wish = document.getElementById('wishMessage');
+        const fw = document.getElementById('fireworks');
+
+        result.style.display = 'block';
+        scoreTxt.innerText = "Global Score: " + score.toFixed(2) + " / 10";
+
+        if (score >= 9.5) {
+            title.innerHTML = "👑 WORLD NO. 1 PORNSTAR";
+            wish.innerHTML = "🎉 অভিনন্দন তহি! তুমি আজকের পারফরম্যান্সে বিশ্বসেরা পর্ণস্টারদের হার মানিয়েছো! তুমিই আমাদের ড্রিম কুইন!";
+            title.style.color = "#ffd700";
+            fw.style.display = 'block';
+            setTimeout(() => { fw.style.display = 'none'; }, 5000);
+            if ("vibrate" in navigator) navigator.vibrate([100, 50, 100, 50, 500]);
+            speakRank("Congratulations Tahi! You are now the World Number One Pornstar.");
+        } 
+        else if (score >= 7.5) {
+            title.innerHTML = "🔥 INTERNATIONAL DIVA";
+            wish.innerHTML = "তহি, তোমার পারফরম্যান্স আন্তর্জাতিক মানের! দারুণ করছো সোনা!";
+            title.style.color = "#ff1493";
+            speakRank("Amazing Tahi, you are a diva.");
+        }
+        else {
+            title.innerHTML = "⭐ LOCAL STAR";
+            wish.innerHTML = "তহি, তোমাকে আরও প্র্যাকটিস করতে হবে বিশ্বসেরা হওয়ার জন্য।";
+            title.style.color = "#00d4ff";
+            speakRank("Keep practicing Tahi.");
+        }
+    }
+
+    function speakRank(txt) {
+        const msg = new SpeechSynthesisUtterance(txt);
+        msg.lang = 'en-US';
+        msg.pitch = 1.2;
+        msg.rate = 0.8;
+        window.speechSynthesis.speak(msg);
+    }
+</script>
+    <div id="tahi-ultimate-module" style="max-width: 600px; margin: 20px auto; font-family: 'Segoe UI', sans-serif; background: #000; padding: 10px; border-radius: 30px;">
+
+    <div class="card" style="background: #0a0000; padding: 20px; border-radius: 20px; border: 2px solid #8a2be2; margin-bottom: 20px; box-shadow: 0 0 15px rgba(138, 43, 226, 0.3);">
+        <h3 style="color: #8a2be2; text-align: center;">🍑 এনাল মাস্টারক্লাস ও কান্না ম্যানেজমেন্ট</h3>
+        <p style="color: #ccc; font-size: 14px; line-height: 1.7;">
+            <b style="color: #ff0000;">তহি কান্না করলে:</b> সাথে সাথে লিঙ্গ বের করে আনুন। ওকে শান্ত করতে কপালে চুমু দিন এবং পেটের নিচে হালকা মালিশ করুন। ও রিল্যাক্স না হলে জবরদস্তি করবেন না। <br><br>
+            <b style="color: #ffd700;">প্রবেশ পদ্ধতি:</b> এনাল এরিয়ায় প্রচুর লুব্রিকেন্ট দিন। ডিক ঢোকানোর সময় তহিকে বলুন "নিচে চাপ দিতে"। ও যখন চাপ দিবে, তখন ধীরে ধীরে পুশ করুন। ভেতরে যাওয়ার পর ২ মিনিট স্থির থাকুন।
+        </p>
+    </div>
+
+    <div class="card" style="background: #0a0000; padding: 20px; border-radius: 20px; border: 2px solid #ffd700; margin-bottom: 20px;">
+        <h3 style="color: #ffd700; text-align: center;">👄 ওরাল ও স্তন মৈথুন টিউটোরিয়াল</h3>
+        <p style="color: #ccc; font-size: 14px; line-height: 1.7;">
+            <b>ব্লু-জব:</b> জিহ্বা দিয়ে ডিকের মাথায় গোল করে চাটুন। ডিক মুখে নিয়ে গালের ভেতরে ভ্যাকিউম তৈরি করে চুষুন। মাল বের হওয়ার পর তা মুখে নিয়ে পার্টনারের চোখের দিকে তাকিয়ে এনজয় করুন।<br><br>
+            [attachment_0](attachment)
+            <b>স্তন মৈথুন (Tit-job):</b> দুই স্তনের মাঝে ডিক রেখে স্যান্ডউইচের মতো চিপে ধরুন। ঘষার সময় ডিকের মাথা মাঝে মাঝে মুখে নিয়ে চাটুন। মাল বের হলে স্তনের ওপর ছিটকে দিয়ে হাত দিয়ে সারা বুকে মাখিয়ে দিন।
+        </p>
+    </div>
+
+    <div class="card" style="background: linear-gradient(145deg, #000, #1a001a); padding: 25px; border-radius: 25px; border: 3px solid #ffd700; text-align: center; position: relative;">
+        <div style="position: absolute; top: -10px; right: -10px; background: #ffd700; color: #000; padding: 5px 15px; transform: rotate(15deg); font-weight: bold; font-size: 10px;">WORLD CLASS</div>
+        
+        <h2 style="color: #ffd700; text-transform: uppercase; font-size: 20px;">🌍 World Ranking System</h2>
+        
+        <div style="text-align: left; margin: 20px 0; color: #fff; font-size: 13px;">
+            <label>🍑 এনাল টাইটনেস:</label> 
+            <input type="range" id="wAnal" min="1" max="10" value="5" style="width:100%; accent-color: #8a2be2; margin-bottom: 10px;">
+            
+            <label>👄 ওরাল স্কিল (Deep Throat):</label> 
+            <input type="range" id="wOral" min="1" max="10" value="5" style="width:100%; accent-color: #00d4ff; margin-bottom: 10px;">
+            
+            <label>💦 স্কুইর্ট ও রস (Juicy Level):</label> 
+            <input type="range" id="wSquirt" min="1" max="10" value="5" style="width:100%; accent-color: #ff0000;">
+        </div>
+
+        <button onclick="checkWorldRank()" style="background: linear-gradient(45deg, #ffd700, #ffa500); color: #000; border: none; padding: 12px; border-radius: 50px; width: 100%; font-weight: bold; cursor: pointer; box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3);">র‍্যাঙ্কিং ও উইশ চেক করো 👑</button>
+
+        <div id="rankResult" style="display:none; margin-top: 20px; padding: 15px; border-radius: 15px; background: rgba(255, 255, 255, 0.05); border: 1px solid #ffd700;">
+            <h1 id="rankTitle" style="margin: 0; font-size: 22px;"></h1>
+            <p id="rankScore" style="color: #ffd700; font-size: 18px; font-weight: bold; margin: 10px 0;"></p>
+            <div id="wishMessage" style="color: #fff; font-style: italic; font-size: 13px;"></div>
+        </div>
+    </div>
+
+</div>
+
+<div id="fireworks" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; z-index: 9999; display: none; background: rgba(0,0,0,0.4);"></div>
+
+<script>
+    function checkWorldRank() {
+        const a = parseInt(document.getElementById('wAnal').value);
+        const o = parseInt(document.getElementById('wOral').value);
+        const s = parseInt(document.getElementById('wSquirt').value);
+        const score = (a + o + s) / 3;
+        
+        const result = document.getElementById('rankResult');
+        const title = document.getElementById('rankTitle');
+        const scoreTxt = document.getElementById('rankScore');
+        const wish = document.getElementById('wishMessage');
+        const fw = document.getElementById('fireworks');
+
+        result.style.display = 'block';
+        scoreTxt.innerText = "Global Score: " + score.toFixed(2) + " / 10";
+
+        if (score >= 9.5) {
+            title.innerHTML = "👑 WORLD NO. 1 PORNSTAR";
+            wish.innerHTML = "🎉 অভিনন্দন তহি! তুমি আজকের পারফরম্যান্সে বিশ্বসেরা পর্ণস্টারদের হার মানিয়েছো! তুমিই আমাদের ড্রিম কুইন!";
+            title.style.color = "#ffd700";
+            fw.style.display = 'block';
+            setTimeout(() => { fw.style.display = 'none'; }, 5000);
+            if ("vibrate" in navigator) navigator.vibrate([100, 50, 100, 50, 500]);
+            speakRank("Congratulations Tahi! You are now the World Number One Pornstar.");
+        } 
+        else if (score >= 7.5) {
+            title.innerHTML = "🔥 INTERNATIONAL DIVA";
+            wish.innerHTML = "তহি, তোমার পারফরম্যান্স আন্তর্জাতিক মানের! দারুণ করছো সোনা!";
+            title.style.color = "#ff1493";
+            speakRank("Amazing Tahi, you are a diva.");
+        }
+        else {
+            title.innerHTML = "⭐ LOCAL STAR";
+            wish.innerHTML = "তহি, তোমাকে আরও প্র্যাকটিস করতে হবে বিশ্বসেরা হওয়ার জন্য।";
+            title.style.color = "#00d4ff";
+            speakRank("Keep practicing Tahi.");
+        }
+    }
+
+    function speakRank(txt) {
+        const msg = new SpeechSynthesisUtterance(txt);
+        msg.lang = 'en-US';
+        msg.pitch = 1.2;
+        msg.rate = 0.8;
+        window.speechSynthesis.speak(msg);
+    }
+</script>
+    
 </body>
 </html>
